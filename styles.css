@@ -91,6 +91,14 @@ section.welcome-numbers {
     #8ED1DC, #E3F4F6);
     )
 }
+.close-button {
+  position: relative;
+  width: 10px;
+  float: right;
+  bottom: 17px;
+  left: 15px;
+
+}
 .personal-account-info {
   /* border: 1px solid red; */
   display: inline-block;
@@ -131,41 +139,41 @@ p.title-of-cell {
   right: 4px;
 }
 p.amount-in-cell {
-
+  position: relative;
+  font-size: 20px;
+  bottom: 30px;
+  right: 6px;
 }
 section.all-accounts {
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .header-two {
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 .accounts-header
 {
-border: 1px solid black;
-}
-button.manage-accounts {
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 
 .personal-accounts {
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 .account-cell {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .account {
   display: inline-block;
   align-items: left;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .middle-text {
   align-items: 40%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .right-text {
   align-items: 70%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 article.transactions {
@@ -175,17 +183,40 @@ article.transactions {
   /* border: 1px solid black; */
 }
 .header-three {
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 h2.recent-transactions {
-border: 1px solid black;
+/* border: 1px solid black; */
+  padding: 0px 0px 0px 20px;
 }
-button.manage-accounts {
-border: 1px solid black;
+
+button {
+background-color: #1CA3BA;
+border-radius: 50px;
+color: white;
+border-color: #1CA3BA;
+}
+
+button.transactions-button {
+  position: relative;
+  left: 180px;
+  padding: 9px;
+  width: 185px;
+  height: 36px;
+  font-size: 14px
+}
+button.accounts-button {
+  position: relative;
+  left: 260px;
+  padding: 9px;
+  width: 185px;
+  height: 36px;
+  font-size: 14px
 }
 
 table {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   table-layout: auto;
   width: 100%;
+  padding: 20px;
 }
