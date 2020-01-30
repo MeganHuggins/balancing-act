@@ -2,11 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-size: 100%;
+    color: #363636;
+    font-family: 'Biryani', sans-serif;
+    height: 100vh;
 }
 
 .navbar{
   height: 100%;
-  width: 100px;
+  width: 80px;
   position: fixed;
   float: left;
   overflow-x: hidden;
@@ -16,15 +19,15 @@ body {
 
 }
 .elephant {
-  height: 90px;
+  height: 70px;
   padding-top: 10px;
   padding-left: 3px;
 }
 .icons {
   margin: 0;
-  padding: 20px;
+  padding: 16px;
   list-style: none;
-  top: 50%;
+  top: 45%;
   position: absolute;
 }
 /* .icons li {
@@ -36,56 +39,117 @@ body {
   display: block;
 } */
 .nav-icons {
-  height: 50px;
+  height: 45px;
+  padding: 3px;
 }
 .small-icon {
   height: 50px;
 }
 
-.main {
-  margin-left: 100px;
-  padding: 50px;
-  border: 1px solid;
+main {
+  margin-left: 80px;
+  margin-top: -15px;
+  padding: 34px;
+  background-color: #F5F5F5;
+  height: 100%;
+}
+.clearfix:after {
+  content: ' ';
+  display: table;
+  clear: both;
 }
 
+}
 .balancing-header {
-  height: 20px;
+  height: 40px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  margin-top: -7px;
+  font-size: 25px;
 }
 
 article.main-article {
   float: left;
   width: 50%
+  /* border: 1px solid black; */
 }
 
 section.welcome-numbers {
-
+ /* border: 1px solid black; */
 }
 .welcome-header {
-
+  /* border: 1px solid black; */
+  width: 500px;
+  height: 26px;
+  padding: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  background: linear-gradient(
+    to right,
+    #8ED1DC, #E3F4F6);
+    )
 }
 .personal-account-info {
-
-}
-.personal-info {
-
-}
-
-section.all-accounts {
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  right: 19px;
+  top: -5px;
+  box-sizing: border-box;
   width: 100%;
 }
-.header-two {
+.personal-info {
+  /* border: 1px solid black; */
+  display: inline-block;
+  padding: 20px;
+  height: 48px;
+  width: 128px;
+  position: relative;
+  background-color: white;
+  border-radius: 2px;
+  text-align: left;
+}
+.personal-info-middle {
+  /* border: 1px solid black; */
+  display: inline-block;
+  padding: 20px;
+  margin-left: 21px;
+  margin-right: 21px;
+  height: 48px;
+  width: 128px;
+  position: relative;
+  background-color: white;
+  border-radius: 2px;
+}
+p.title-of-cell {
+  position: relative;
+  font-size: 10px;
+  bottom: 13px;
+  right: 4px;
+}
+p.amount-in-cell {
 
+}
+section.all-accounts {
+  width: 100%;
+  border: 1px solid black;
+}
+.header-two {
+border: 1px solid black;
 }
 .accounts-header
 {
-
+border: 1px solid black;
 }
 button.manage-accounts {
-
+border: 1px solid black;
 }
 
 .personal-accounts {
-
+border: 1px solid black;
 }
 .account-cell {
   border: 1px solid black;
@@ -93,26 +157,35 @@ button.manage-accounts {
 .account {
   display: inline-block;
   align-items: left;
+  border: 1px solid black;
 }
 .middle-text {
   align-items: 40%;
+  border: 1px solid black;
 }
 .right-text {
   align-items: 70%;
+  border: 1px solid black;
 }
 
 article.transactions {
   float: right;
   width: 50%;
+  background-color: white;
+  /* border: 1px solid black; */
 }
 .header-three {
-
+border: 1px solid black;
 }
 h2.recent-transactions {
-
+border: 1px solid black;
 }
 button.manage-accounts {
-
+border: 1px solid black;
 }
 
-table
+table {
+  border: 1px solid black;
+  table-layout: auto;
+  width: 100%;
+}
