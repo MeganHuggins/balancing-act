@@ -15,7 +15,7 @@ body {
   overflow-x: hidden;
   top: 0;
   left: 0;
-  border: black solid 2px;
+  /* border: black solid 2px; */
 
 }
 .elephant {
@@ -43,7 +43,9 @@ body {
   padding: 3px;
 }
 .small-icon {
-  height: 50px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 17px;
 }
 
 main {
@@ -78,26 +80,29 @@ section.welcome-numbers {
  /* border: 1px solid black; */
 }
 .welcome-header {
-  /* border: 1px solid black; */
-  width: 500px;
-  height: 26px;
-  padding: 30px;
+  position: relative;
   margin-top: 0px;
   margin-bottom: 10px;
   border-radius: 3px;
-  font-size: 15px;
-  background: linear-gradient(
-    to right,
-    #8ED1DC, #E3F4F6);
-    )
+  height: 90px;
+  width: 86%;
+  background: linear-gradient( to right, #8ED1DC, #E3F4F6);
 }
-.close-button {
-  position: relative;
-  width: 10px;
-  float: right;
-  bottom: 17px;
-  left: 15px;
-
+.welcome-header h3 {
+  font-size: 15px;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+#remove-btn {
+  position: absolute;
+  top: 15px;
+  right: 17px;
+  width: 11px;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
 }
 .personal-account-info {
   /* border: 1px solid red; */
@@ -161,6 +166,11 @@ section.all-accounts {
 }
 .account-cell {
   /* border: 1px solid black; */
+  display: inline-block;
+  width: 560px;
+  height: 70px;
+  margin-bottom: 10px;
+  background-color: white;
 }
 .account {
   display: inline-block;
@@ -168,11 +178,14 @@ section.all-accounts {
   /* border: 1px solid black; */
 }
 .middle-text {
-  align-items: 40%;
+  position: relative;
+  left: 70px;
   /* border: 1px solid black; */
 }
 .right-text {
-  align-items: 70%;
+  position: relative;
+  /* float: right; */
+  top: 10px;
   /* border: 1px solid black; */
 }
 

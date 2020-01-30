@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Balancing Act</title>
   <link rel="stylesheet" type="text/css" href="./styles.css">
+  <script language="javascript" typre="text/javascript" src="./main.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
 </head>
 
@@ -15,11 +16,17 @@
 
       <ul class="icons" style="list-style: none;">
           <li><a href="#" target="_blank">
-            <img class= "nav-icons" src="assets/dashboard.svg" alt="Black and White Clipboard"></a></li>
+            <img class= "nav-icons" src="assets/dashboard.svg" alt="Black and White Clipboard" />
+              </a>
+          </li>
           <li><a href="#" target="_blank">
-            <img class= "nav-icons" src="assets/transactions.svg" alt="Wallet with Ceditcard"></a></li>
+            <img class= "nav-icons" src="assets/transactions.svg" alt="Wallet with Ceditcard" />
+              </a>
+          </li>
           <li><a href="#" target="_blank">
-            <img class= "nav-icons" src="assets/profile.svg" alt="Outline of a Woman"></a></li>
+            <img class= "nav-icons" src="assets/profile.svg" alt="Outline of a Woman" />
+              </a>
+          </li>
         </ul>
 
     </nav>
@@ -28,9 +35,16 @@
   <main class="clearfix">
     <h1 class="balancing-header">Balancing Act</h1>
 
+<!-- //change a tag to button -->
+
     <article class="main-article">
       <section class="welcome-numbers">
-        <h3 class="welcome-header" id="welcome-badge"> Welcome, Oscar!<a href="#" class="modal_close"><img class="close-button" src="assets/close.svg" alt="Close Icon" /></a></h3>
+        <div class="welcome-header">
+          <h3> Welcome, Oscar!</h3>
+          <button id="remove-btn" onclick="sayHi()">
+            <img class="close-button" src="./assets/close.svg" alt="Close Icon">
+          </button>
+        </div>
         <div class="personal-account-info">
           <div class="personal-info">
             <p class="title-of-cell">INCOME</p>
@@ -55,22 +69,22 @@
 
         <div class="personal-accounts">
           <div class="account-cell">
-            <img class="account small-icon" src="assets/checking.svg" alt="Checkbook">
+            <img class="account small-icon" src="assets/checking.svg" alt="Checkbook" />
             <p class="account middle-text">Wells Fargo</p>
             <p class="account right-text">Checking</p>
           </div>
           <div class="account-cell">
-            <img class="account small-icon" src="assets/savings.svg" alt="Piggy Bank">
+            <img class="account small-icon" src="assets/savings.svg" alt="Piggy Bank" />
             <p class="account middle-text">Wells Fargo</p>
             <p class="account right-text">Savings</p>
           </div>
           <div class="account-cell">
-            <img class="account small-icon" src="assets/credit-card.svg" alt="Credit Cards">
+            <img class="account small-icon" src="assets/credit-card.svg" alt="Credit Cards" />
             <p class=" account middle-text">Amazon Credit</p>
             <p class="account right-text">Credit Card</p>
           </div>
           <div class="account-cell">
-            <img class="account small-icon" src="assets/credit-card.svg" alt="Credit Cards">
+            <img class="account small-icon" src="assets/credit-card.svg" alt="Credit Cards" />
             <p class="account middle-text">Southwest Credit</p>
             <p class="account right-text">Credit Card</p>
           </div>
