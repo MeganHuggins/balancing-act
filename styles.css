@@ -25,7 +25,7 @@ body {
 }
 .icons {
   margin: 0;
-  padding: 16px;
+  padding: 13px;
   list-style: none;
   top: 45%;
   position: absolute;
@@ -39,9 +39,14 @@ body {
   display: block;
 } */
 .nav-icons {
-  height: 45px;
-  padding: 3px;
+  height: 35px;
+  padding: 2px 2px 2px 10px;
+  border-left: solid 3px transparent;
 }
+.nav-icons:hover {
+  border-left: solid 3px #1CA3BA;
+}
+
 .small-icon {
   height: 30px;
   margin-left: 10px;
@@ -50,7 +55,6 @@ body {
 
 main {
   margin-left: 80px;
-  margin-top: -15px;
   padding: 34px;
   background-color: #F5F5F5;
   height: 100%;
@@ -61,18 +65,17 @@ main {
   clear: both;
 }
 
-}
 .balancing-header {
   height: 40px;
   padding: 5px 10px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: -7px;
   font-size: 25px;
 }
 
 article.main-article {
   float: left;
-  width: 50%
+  width: 55%
   /* border: 1px solid black; */
 }
 
@@ -89,12 +92,12 @@ section.welcome-numbers {
   background: linear-gradient( to right, #8ED1DC, #E3F4F6);
 }
 .welcome-header h3 {
-  font-size: 15px;
+  font-size: 17px;
   position: absolute;
   left: 30px;
-  top: 15px;
+  top: 13px;
 }
-#remove-btn {
+.remove-btn {
   position: absolute;
   top: 15px;
   right: 17px;
@@ -114,12 +117,12 @@ section.welcome-numbers {
   box-sizing: border-box;
   width: 100%;
 }
-.personal-info {
+.personal-info-left {
   /* border: 1px solid black; */
   display: inline-block;
   padding: 20px;
   height: 48px;
-  width: 128px;
+  width: 140px;
   position: relative;
   background-color: white;
   border-radius: 2px;
@@ -132,11 +135,24 @@ section.welcome-numbers {
   margin-left: 21px;
   margin-right: 21px;
   height: 48px;
-  width: 128px;
+  width: 140px;
   position: relative;
   background-color: white;
   border-radius: 2px;
 }
+.personal-info-right {
+  /* border: 1px solid black; */
+  display: inline-block;
+  padding: 20px;
+  margin-left: 21px;
+  margin-right: 21px;
+  height: 48px;
+  width: 140px;
+  position: relative;
+  background-color: white;
+  border-radius: 2px;
+}
+
 p.title-of-cell {
   position: relative;
   font-size: 10px;
@@ -167,7 +183,8 @@ section.all-accounts {
 .account-cell {
   /* border: 1px solid black; */
   display: inline-block;
-  width: 560px;
+  position: relative;
+  width: 86%;
   height: 70px;
   margin-bottom: 10px;
   background-color: white;
@@ -178,20 +195,22 @@ section.all-accounts {
   /* border: 1px solid black; */
 }
 .middle-text {
-  position: relative;
-  left: 70px;
+  position: absolute;
+  left: 20%;
+  top:10px;
   /* border: 1px solid black; */
 }
 .right-text {
-  position: relative;
-  /* float: right; */
+  position: absolute;
+  left: 74%;
   top: 10px;
   /* border: 1px solid black; */
 }
 
 article.transactions {
   float: right;
-  width: 50%;
+  width: 45%;
+  height: 78%;
   background-color: white;
   /* border: 1px solid black; */
 }
@@ -200,7 +219,7 @@ article.transactions {
 }
 h2.recent-transactions {
 /* border: 1px solid black; */
-  padding: 0px 0px 0px 20px;
+  padding: 10px 0px 0px 20px;
 }
 
 button {
@@ -211,16 +230,17 @@ border-color: #1CA3BA;
 }
 
 button.transactions-button {
-  position: relative;
-  left: 180px;
+  position: absolute;
   padding: 9px;
   width: 185px;
   height: 36px;
-  font-size: 14px
+  font-size: 14px;
+  right: 70px;
+  top;
 }
 button.accounts-button {
-  position: relative;
-  left: 260px;
+  position: absolute;
+  right: 50%;
   padding: 9px;
   width: 185px;
   height: 36px;
@@ -230,6 +250,23 @@ button.accounts-button {
 table {
   /* border: 1px solid black; */
   table-layout: auto;
-  width: 100%;
   padding: 20px;
+  width:90%;
+  border-collapse: collapse;
+  margin: 0px 20px 20px 20px;
+}
+th {
+  border-bottom: 1px solid #CCCCCC ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  left: 10px;
+  text-align: left;
+}
+td {
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  position: relative;
+  left: 10px;
 }
