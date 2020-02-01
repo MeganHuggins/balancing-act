@@ -20,7 +20,7 @@ body {
   height: 70px;
   padding-top: 10px;
   padding-left: 3px;
-}s
+}
 .icons {
   margin: 0;
   padding: 13px;
@@ -39,12 +39,11 @@ body {
 .nav-icons {
   height: 35px;
   padding: 2px 2px 2px 10px;
-  border-left: solid 3px transparent;
-  transition: .5s ease;
 }
-.nav-icons:hover {
+.selected {
   border-left: solid 3px #1CA3BA;
 }
+
 
 .small-icon {
   height: 30px;
@@ -197,7 +196,7 @@ section.all-accounts {
   top: 10px;
 }
 
-article.transactions {
+article.transactions1 {
   float: right;
   width: 45%;
   padding-bottom: 30px;
