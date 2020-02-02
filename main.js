@@ -45,12 +45,10 @@ wallet.addEventListener('click', switchPage)
 clipboard.addEventListener ('click', switchPageBack)
 //create function to switch switchPage and switchPageBack
 function switchPage() {
-  // inner.innerHTML = (add page 2 html)
   outer.hidden = true
   inner.hidden = false
 }
 function switchPageBack() {
-  //inner.innerHTML = (add page 2 html)
   outer.hidden = false
   inner.hidden = true
 }
