@@ -31,7 +31,7 @@
     </nav>
   </header>
 
-  <!-- <main class="clearfix">
+  <main class="clearfix outer first-page">
     <h1 class="balancing-header">Balancing Act</h1>
 
     <article class="main-article">
@@ -60,7 +60,7 @@
 
       <section class="all-accounts">
         <div class="header-two">
-          <h2 class="accounts-header">Accounts<button class="accounts-button" type="button" name="button">MANAGE ACCOUNTS</button></h2>
+          <h2 class="accounts-header">Accounts<button class="accounts-button button" type="button" name="button">MANAGE ACCOUNTS</button></h2>
 
         </div>
 
@@ -91,7 +91,7 @@
 
     <article class=transactions1>
       <div class="header-three">
-        <h2 class="recent-transactions">Recent Transactions<button class="transactions-button" type="button" name="button">NEW TRANSACTIONS</button></h2>
+        <h2 class="recent-transactions">Recent Transactions<button class="transactions-button button" type="button" name="button">NEW TRANSACTIONS</button></h2>
       </div>
 
       <table>
@@ -148,7 +148,7 @@
           </tr>
           <tr>
             <td>Oct 18, 2019</td>
-            <td>pig Train</td>
+            <td>Pig Train</td>
             <td> - </td>
             <td>$4.83</td>
           </tr>
@@ -164,17 +164,27 @@
     </article>
 
 
-  </main> -->
-  <main>
-<article class="transactions">
+  </main>
+
+  <main class="clearfix inner second-page" hidden>
+<article class="transactions2">
   <section>
+    <div class="transactions2-header">
+      <h2 class="accounts-header">Transactions<button class="transaction-button-small blue-button" type="button" name="button">ALL</button>
+        <button class="transaction-button-small white-button" type="button" name="button">INFLOW</button>
+        <button class="transaction-button-small white-button" id="white-button" type="button" name="button">OUTFLOW</button>
+      </h2>
+
+    </div>
 
   </section>
-  <section>
-    <table>
+
+  <section class="transactions-inner">
+    <table class="table2">
       <thead>
         <tr>
           <th colspan="1">Date</th>
+          <th colspan="1">Account</th>
           <th colspan="1">Payee</th>
           <th colspan="1">Inflow</th>
           <th colspan="1">Outflow</th>
@@ -183,58 +193,102 @@
 
       <tbody>
         <tr>
-          <td>Oct 25, 2019</td>
+          <td>10-25-19</td>
+          <td>Credit Card</td>
           <td>Target</td>
           <td>-</td>
           <td>$82.35</td>
         </tr>
         <tr>
-          <td>Oct 24, 2019</td>
+          <td>10-24-19</td>
+          <td>Credit Card</td>
           <td>Express</td>
           <td>-</td>
           <td>$212.24</td>
         </tr>
         <tr>
-          <td>Oct 22, 2019</td>
+          <td>10-22-19</td>
+          <td>Checking</td>
           <td>Paycheck</td>
           <td>$1,319.12</td>
           <td>-</td>
         </tr>
         <tr>
-          <td>Oct 21, 2019</td>
+          <td>10-21-19</td>
+          <td>Credit Card</td>
           <td>Trader Joe's</td>
           <td>-</td>
           <td>$54.94</td>
         </tr>
         <tr>
-          <td>Oct 20, 2019</td>
+          <td>10-20-19</td>
+          <td>Credit Card</td>
           <td>Shell</td>
           <td>-</td>
           <td>$46.23</td>
         </tr>
         <tr>
-          <td>Oct 19, 2019</td>
+          <td>10-19-19</td>
+          <td>Savings</td>
           <td>Rent</td>
           <td> $800.00 </td>
           <td>-</td>
         </tr>
         <tr>
-          <td>Oct 19, 2019</td>
+          <td>10-19-19</td>
+          <td>Checking</td>
           <td>Hapa Sushi</td>
           <td>-</td>
           <td>$13.97</td>
         </tr>
         <tr>
-          <td>Oct 18, 2019</td>
-          <td>pig Train</td>
+          <td>10-18-19</td>
+          <td>Credit Card</td>
+          <td>Pig Train</td>
           <td> - </td>
           <td>$4.83</td>
         </tr>
         <tr>
           <td>Oct 18, 2019</td>
+          <td>Checking</td>
           <td>RTD</td>
           <td>-</td>
           <td>$6.00</td>
+        </tr>
+        <tr>
+          <td>10-24-19</td>
+          <td>Checking</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
+        </tr>
+        <tr>
+          <td>10-24-19</td>
+          <td>Checking</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
+        </tr>
+        <tr>
+          <td>10-24-19</td>
+          <td>Checking</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
+        </tr>
+        <tr>
+          <td>10-24-19</td>
+          <td>Checking</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
+        </tr>
+        <tr>
+          <td>10-24-19</td>
+          <td>Checking</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
         </tr>
       </tbody>
     </table>
@@ -244,5 +298,6 @@
 
 </article>
   </main>
+</body>
   <script language="javascript" type="text/javascript" src="main.js"></script>
 </html>

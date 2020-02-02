@@ -44,7 +44,6 @@ body {
   border-left: solid 3px #1CA3BA;
 }
 
-
 .small-icon {
   height: 30px;
   margin-left: 10px;
@@ -55,7 +54,6 @@ main {
   margin-left: 80px;
   padding: 34px 34px 0px 34px;
   background-color: #F5F5F5;
-  height: 100%;
 }
 .clearfix:after {
   content: ' ';
@@ -170,6 +168,10 @@ section.all-accounts {
   width: 100%;
 }
 
+.account {
+  display: inline-block;
+  align-items: left;
+}
 .account-cell {
   display: inline-block;
   position: relative;
@@ -181,10 +183,7 @@ section.all-accounts {
   -moz-box-shadow: 1px 1px 23px 0px rgba(0,0,0,0.05);
   box-shadow: 1px 1px 23px 0px rgba(0,0,0,0.05);
 }
-.account {
-  display: inline-block;
-  align-items: left;
-}
+
 .middle-text {
   position: absolute;
   left: 20%;
@@ -210,7 +209,32 @@ h2.recent-transactions {
   padding: 10px 0px 0px 20px;
 }
 
-button {
+table {
+  table-layout: auto;
+  padding: 20px;
+  width:90%;
+  border-collapse: collapse;
+  margin: 0px 20px 0px 20px;
+  height: 70%;
+}
+
+th {
+  border-bottom: 1px solid #CCCCCC ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  left: 10px;
+  text-align: left;
+}
+
+td {
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  position: relative;
+  left: 10px;
+}
+.button {
 background-color: #1CA3BA;
 border-radius: 50px;
 color: white;
@@ -238,28 +262,56 @@ button.accounts-button {
   box-shadow: 1px 1px 23px 0px rgba(0,0,0,0.05);
 }
 
-table {
+///////////////////////////////
+main.second-page {
+  margin-left: 80px;
+  padding: 10px 34px 0px 34px;
+  background-color: #F5F5F5;
+}
+article.transactions2 {
+  /* border: 2px solid black; */
+  float: left;
+  width: 55%;
+  padding-bottom: 15px;
+}
+.transactions2-header {
+  /* border: 2px solid black; */
+  top: 0px;
+}
+button.transaction-button-small {
+  position: relative;
+  padding: 9px;
+  width: 112px;
+  right: -30%;
+  font-weight: bold;
+
+}
+.white-button {
+  border-radius: 50px;
+  background-color: #ffffff;
+  border-color: #1CA3BA;
+  color: #1CA3BA;
+  position: relative;
+  padding: 9px;
+  width: 102px;
+  right: -28%;
+}
+.blue-button {
+  border-radius: 50px;
+  background-color: #1CA3BA;
+  border-color: #1CA3BA;
+  color: #ffffff;
+}
+section.transactions-inner {
+  border: 2px solid black;
+  background-color: white;
+  padding-top: 35px;
+}
+.table2 {
+  background-color: white;
   table-layout: auto;
   padding: 20px;
-  width:90%;
   border-collapse: collapse;
   margin: 0px 20px 0px 20px;
   height: 70%;
-}
-
-th {
-  border-bottom: 1px solid #CCCCCC ;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  position: relative;
-  left: 10px;
-  text-align: left;
-}
-
-td {
-  border-bottom: 1px solid #CCCCCC;
-  padding-bottom: 8px;
-  padding-top: 8px;
-  position: relative;
-  left: 10px;
 }

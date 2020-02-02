@@ -9,8 +9,6 @@ function removeBanner() {
 }
 
 
-
-
   //target dashboard border, wallet, profile
   var clipboard = document.querySelector('.clipboard');
   var wallet = document.querySelector('.wallet');
@@ -39,10 +37,20 @@ function profileLight() {
   profile.classList.add('selected')
 }
 
-
-  // if(clipboard === )
-  // e.preventDefault()
-  // e.target
-  // console.log(e.target)
-//.classList.remove look up
-//
+//target the outter and inner main elements
+var inner = document.querySelector ('.inner');
+var outer = document.querySelector ('.outer')
+//create addEventListener for wallet and clipboard button
+wallet.addEventListener('click', switchPage)
+clipboard.addEventListener ('click', switchPageBack)
+//create function to switch switchPage and switchPageBack
+function switchPage() {
+  // inner.innerHTML = (add page 2 html)
+  outer.hidden = true
+  inner.hidden = false
+}
+function switchPageBack() {
+  //inner.innerHTML = (add page 2 html)
+  outer.hidden = false
+  inner.hidden = true
+}
