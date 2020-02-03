@@ -222,7 +222,9 @@ border-radius: 50px;
 color: white;
 border-color: #1CA3BA;
 }
-
+button {
+  color: #
+}
 button.transactions-button {
   position: absolute;
   padding: 9px;
@@ -236,7 +238,7 @@ button.accounts-button {
   position: absolute;
   right: 50%;
   padding: 9px;
-  width: 185px;
+  width: 185px;s
   height: 36px;
   font-size: 14px;
   box-shadow: 1px 1px 23px 0px rgba(0,0,0,0.05);
@@ -257,23 +259,27 @@ article.transactions2 {
 }
 button.transaction-button-small {
   position: relative;
-  padding: 7px;
-  width: 108px;
-  right: -11%;
   font-weight: bold;
-
-}
-.white-button {
   border-radius: 50px;
-  background-color: #ffffff;
+  padding: 9px;
+  width: 92px;
+  height: 30px;
+  right: -15%;
   border-color: #1CA3BA;
   color: #1CA3BA;
-  position: relative;
-  padding: 9px;
-  width: 102px;
-  right: -28%;
 }
-.blue-button {
+.transaction-button-small:hover {
+  background-color: #1CA3BA;
+  border-color: #1CA3BA;
+  color: #ffffff;
+}
+.white-button {
+  /* border-radius: 50px;
+  background-color: #ffffff;
+  border-color: #1CA3BA;
+  color: #1CA3BA; */
+}
+#blue-button {
   border-radius: 50px;
   background-color: #1CA3BA;
   border-color: #1CA3BA;
