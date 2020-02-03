@@ -267,18 +267,14 @@ button.transaction-button-small {
   right: -15%;
   border-color: #1CA3BA;
   color: #1CA3BA;
+  outline:none;
 }
 .transaction-button-small:hover {
   background-color: #1CA3BA;
   border-color: #1CA3BA;
   color: #ffffff;
 }
-.white-button {
-  /* border-radius: 50px;
-  background-color: #ffffff;
-  border-color: #1CA3BA;
-  color: #1CA3BA; */
-}
+
 #blue-button {
   border-radius: 50px;
   background-color: #1CA3BA;
